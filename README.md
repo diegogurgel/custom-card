@@ -13,13 +13,13 @@ $bower install custom-card
 
 ####options
 
-Attribute  |type     				| 
----		   |---      				|
-name	   |text    			    |	
-icon       |URI      				|
-h          |number					|
-attributes |comma separated texts	|
-back	   |text					|
+Attribute  |type     						|	 
+---		   |---      						|
+name	   |text    			    		|	
+icon       |URI      						|
+h          |number					        |
+attributes |text - comma separated values	|
+back	   |text							|
 
 
 ###Browser suport
