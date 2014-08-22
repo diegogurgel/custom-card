@@ -1,0 +1,27 @@
+{
+  "name": "custom-card",
+  "version": "0.0.1",
+  "homepage": "https://github.com/diegogurgel/custom-card",
+  "authors": [
+    "diego <diego@diegogurgel.com>"
+  ],
+  "description": "webcomponents - custom card for profile, project, etc.",
+  "main": "custom-card.html",
+  "keywords": [
+    "custom",
+    "card",
+    "webcomponents",
+    "card",
+    "card-profile",
+    "profile"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
