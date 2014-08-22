@@ -2,6 +2,9 @@ custom-card
 ===========
 Simple and responsive web component for create cards, like profile cards,  but also create, for instance, project cards, github profile cards, social cards
 
+###Example
+![image](http://snag.gy/ZVfoK.jpg)
+
 ###Install
  Using [Bower](http://bower.io):
 
