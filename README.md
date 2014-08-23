@@ -23,8 +23,8 @@ $bower install custom-card
 3.Place the following in the head:
 
 ```html
-  <script type="text/javascript" src="bower_components/polymer-platform/platform.js"></script>
-	<link rel="import" href="bower_components/custom-card/custom-card.html"/>
+<script type="text/javascript" src="bower_components/polymer-platform/platform.js"></script>
+<link rel="import" href="bower_components/custom-card/custom-card.html"/>
 ```
 ##Using
 
