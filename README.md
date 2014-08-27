@@ -28,7 +28,7 @@ $bower install custom-card
 ```
 ##Using
 
-###<custom-card></custom-card>
+<custom-card></custom-card>
 
 ####Options
 
