@@ -27,9 +27,9 @@ $bower install custom-card
 <link rel="import" href="bower_components/custom-card/custom-card.html"/>
 ```
 ##Using
-
+```html
 <custom-card></custom-card>
-
+```
 ####Options
 
 Attribute  |type     						|	 
