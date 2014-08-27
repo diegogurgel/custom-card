@@ -34,7 +34,7 @@ $bower install custom-card
 
 Attribute  |type     						|	 
 ---		   |---      						|
-name	   |text    			    		|	
+title	   |text    			    		|	
 icon       |URI      						|
 h          |number					        |
 attributes |text - comma separated values	|
