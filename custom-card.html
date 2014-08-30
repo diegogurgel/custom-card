@@ -1,17 +1,14 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 <template id="custom-card">
   <style>
-    :host{
+    .flip-container{
       font-family: 'Open Sans', sans-serif;
       font-weight: 100;
-    }
-    .flip-container{
       float: left;
       margin: 0.5em;
-      -webkit-perspective: 1000;
-      -moz-perspective: 1000;
-      -o-perspective: 1000;
-      perspective: 1000;
+      -webkit-perspective: 1000px;
+      -o-perspective: 1000px;
+      perspective: 1000px;
       position: relative;
       transition: width .20s;
       
@@ -144,7 +141,7 @@
       <div class="front">
         <header>
           <section class="content">
-            <h1>Diego Gurgelfsd</h1>
+            <h1></h1>
             <div class="icon-host">
               <img src="" alt="">
             </div>
@@ -174,7 +171,7 @@
         clone.querySelector('.icon-host>img').src = srcIcon;
 
         var title = this.getAttribute('title');
-        clone.querySelector('.content>h1').innerText=title;
+        clone.querySelector('.content>h1').innerHTML=title;
 
         var attributes = this.getAttribute('attributes');
         var attrContent =  clone.querySelector('.attributes');
@@ -187,7 +184,7 @@
         }); 
         
         var backText = this.getAttribute('back');
-        clone.querySelector('.back>.content').innerText=backText;        
+        clone.querySelector('.back>.content').innerHTML=backText;        
 
 
         var front =  clone.querySelector('.front');
@@ -207,6 +204,4 @@
     }
   });
   document.registerElement('custom-card', {prototype: proto});
-
-
 </script>
