@@ -141,7 +141,7 @@
       <div class="front">
         <header>
           <section class="content">
-            <h1>Diego Gurgelfsd</h1>
+            <h1></h1>
             <div class="icon-host">
               <img src="" alt="">
             </div>
@@ -171,7 +171,7 @@
         clone.querySelector('.icon-host>img').src = srcIcon;
 
         var title = this.getAttribute('title');
-        clone.querySelector('.content>h1').innerText=title;
+        clone.querySelector('.content>h1').innerHTML=title;
 
         var attributes = this.getAttribute('attributes');
         var attrContent =  clone.querySelector('.attributes');
@@ -204,6 +204,4 @@
     }
   });
   document.registerElement('custom-card', {prototype: proto});
-
-
 </script>
