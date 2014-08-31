@@ -1,6 +1,10 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 <template id="custom-card">
   <style>
+  :host{
+    
+    display: inline-block;
+  }
     .flip-container{
       font-family: 'Open Sans', sans-serif;
       font-weight: 100;
@@ -136,7 +140,9 @@
     .icon-host:before{
       width: 120%;
     }
-
+    :host{
+      display: inline;
+    }
   }
   </style>
   <div class="flip-container">
